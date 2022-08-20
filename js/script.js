@@ -12,10 +12,6 @@ function Converter(){
         var resultFormatado = result.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
         lcoin.value = resultFormatado
     }
-    setInterval(() => {
-        brcoin.value = ''
-        lcoin.value = ''
-    }, 3000);
 }
 
 
